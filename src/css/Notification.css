@@ -1,0 +1,143 @@
+.Nfull{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 720px;
+    background-color: #ffffff;
+}
+.userphoto1{
+    margin-top:20px ;
+    margin-left: 20px;
+    width: 60%;
+    height: 55%;
+    display: flex;
+   
+}
+
+
+.Nmain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: fit-content;
+    margin-left: 4vw;
+    margin-top: 65px;
+    min-height: 720px;
+    background-color:aliceblue
+}
+.Nmiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    min-height: 620px;
+    height: fit-content;
+    background-color: #ffffff;
+}
+.head{
+    font-family: 'Orbitron';
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 90%;
+    height:40px;
+    background-color: #B6BFE6;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 90%;
+    height: auto;
+    min-height: 530px;
+    background-color:#E0F0F8;
+}
+.Slab{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    min-height: 120px;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.phot{
+    position: relative;
+    width: 100px;
+    background-color: #C8B5D5;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:  100px;
+}
+.descp{
+    width: 70%;
+    background-color: ;
+    height: auto;
+    min-height: 100px;
+    
+}
+.descp1{
+    width: 90%;
+    background-color:;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Orbitron';
+    font-size: smaller;
+    font-weight: bold;
+    min-height: 40px;
+    height: auto;
+    
+
+}
+.descp1 div{
+    width: 30%;
+    font-family: 'Montserrat';
+
+}
+.descp11{
+    width: 90%;
+    background-color:;
+    padding-top: 5px;
+    display: flex;
+    
+    
+    font-family: 'Orbitron';
+    font-size: smaller;
+    font-weight: bold;
+    min-height: 40px;
+    height: auto;
+    
+
+}
+.descp11 div{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
